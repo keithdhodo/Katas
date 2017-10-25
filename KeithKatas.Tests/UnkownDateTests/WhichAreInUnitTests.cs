@@ -14,7 +14,7 @@ namespace Sandbox
             string[] a2 = new string[] { "lively", "alive", "harp", "sharp", "armstrong" };
             string[] r = new string[] { "arp", "live", "strong" };
 
-            CollectionAssert.AreEqual(r, WhichAreIn.inArray(a1, a2));
+            CollectionAssert.AreEqual(r, WhichAreIn.InArray(a1, a2));
         }
     }
 }

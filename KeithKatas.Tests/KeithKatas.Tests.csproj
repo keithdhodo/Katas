@@ -82,6 +82,7 @@
     <Compile Include="201706\TribonnaciTests.cs" />
     <Compile Include="201706\VowelCountTests.cs" />
     <Compile Include="201707\DecimalPlaces.cs" />
+    <Compile Include="201710\ImproperFractionTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
     <Compile Include="UnkownDateTests\SlopeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

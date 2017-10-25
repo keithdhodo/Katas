@@ -1,6 +1,5 @@
-﻿using System;
+﻿using InterviewQuestions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {

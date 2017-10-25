@@ -67,6 +67,7 @@
     <Compile Include="201706\Tribonacci.cs" />
     <Compile Include="201706\VowelCount.cs" />
     <Compile Include="201707\DecimalPlaces.cs" />
+    <Compile Include="201710\ImproperFraction.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
@@ -105,9 +106,6 @@
     <Compile Include="UnknownDate\VasyaClerk.cs" />
     <Compile Include="UnknownDate\VowelCount.cs" />
     <Compile Include="UnknownDate\WhichAreIn.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

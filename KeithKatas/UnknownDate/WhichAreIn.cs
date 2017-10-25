@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kata
 {
     public class WhichAreIn
     {
-        public static string[] inArray(string[] array1, string[] array2)
+        public static string[] InArray(string[] array1, string[] array2)
         {
             List<string> matches = new List<string>();
 
