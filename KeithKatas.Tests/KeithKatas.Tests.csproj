@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{731DE497-EA02-4E68-95AD-108511159C5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KeithKatas.Tests</RootNamespace>
+    <AssemblyName>KeithKatas.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="201607\LightSabersTests.cs" />
+    <Compile Include="201607\ClockAngleTests.cs" />
+    <Compile Include="201607\NumberOfTwosTests.cs" />
+    <Compile Include="201607\ProdFibTests.cs" />
+    <Compile Include="201607\PalindromeTests.cs" />
+    <Compile Include="201607\DistancesFromAverageTests.cs" />
+    <Compile Include="201607\ChineseZodiacTests.cs" />
+    <Compile Include="201608\HexStringToDecimalTests.cs" />
+    <Compile Include="201608\PerfectSquareTests.cs" />
+    <Compile Include="201608\SortedUnionTests.cs" />
+    <Compile Include="201608\NeedleInHaystackTests.cs" />
+    <Compile Include="201608\ProductOfLargestPairTests.cs" />
+    <Compile Include="201608\LogicalCalculatorTests.cs" />
+    <Compile Include="201608\PeteSpeakTests.cs" />
+    <Compile Include="201608\FindWordMatchesTests.cs" />
+    <Compile Include="201608\GreatestCommonFactorialTests.cs" />
+    <Compile Include="201608\XbonacciTests.cs" />
+    <Compile Include="201706\BowlingPinsTests.cs" />
+    <Compile Include="201706\DuckDuckGooseTests.cs" />
+    <Compile Include="201706\CountingSheepTests.cs" />
+    <Compile Include="201706\PartialWordSearchingTests.cs" />
+    <Compile Include="201706\HelloWorldAsciiTests.cs" />
+    <Compile Include="201706\TribonnaciTests.cs" />
+    <Compile Include="201706\VowelCountTests.cs" />
+    <Compile Include="201707\DecimalPlaces.cs" />
+    <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
+    <Compile Include="UnkownDateTests\SlopeTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnkownDateTests\StringCalculatorTests.cs" />
+    <Compile Include="UnkownDateTests\FriendOrFoesTests.cs" />
+    <Compile Include="UnkownDateTests\PrintAllNumbersLessThanNTests.cs" />
+    <Compile Include="UnkownDateTests\FormattingDecimalPlaces1Tests.cs" />
+    <Compile Include="UnkownDateTests\RuleOfDivisibilityBySevenTests.cs" />
+    <Compile Include="UnkownDateTests\DivisibleByFourUnitTests.cs" />
+    <Compile Include="UnkownDateTests\IsDivisibleByXAndYTests.cs" />
+    <Compile Include="UnkownDateTests\GetThePlusMethodTests.cs" />
+    <Compile Include="UnkownDateTests\PetersAgeTests.cs" />
+    <Compile Include="UnkownDateTests\FindTheCapitalsTests.cs" />
+    <Compile Include="UnkownDateTests\ForgetfulJohnyTests.cs" />
+    <Compile Include="UnkownDateTests\TankTruckTests.cs" />
+    <Compile Include="UnkownDateTests\KeepUpTheHoopTests.cs" />
+    <Compile Include="UnkownDateTests\DidSheSayHalloTests.cs" />
+    <Compile Include="UnkownDateTests\NeedChangeTests.cs" />
+    <Compile Include="UnkownDateTests\DigitalRootTests.cs" />
+    <Compile Include="UnkownDateTests\FixerTests.cs" />
+    <Compile Include="UnkownDateTests\LeastDisruptiveSubrangeTests.cs" />
+    <Compile Include="UnkownDateTests\NumberSeries3Tests.cs" />
+    <Compile Include="UnkownDateTests\GetLengthTests.cs" />
+    <Compile Include="UnkownDateTests\HighAndLowTests.cs" />
+    <Compile Include="UnkownDateTests\CharacterSwapTests.cs" />
+    <Compile Include="UnkownDateTests\BlockTests.cs" />
+    <Compile Include="UnkownDateTests\ReachMeAndSumMyDigitsTests.cs" />
+    <Compile Include="UnkownDateTests\BitCountTests.cs" />
+    <Compile Include="UnkownDateTests\DoubleColaTests.cs" />
+    <Compile Include="UnkownDateTests\SimplePigLatinTests.cs" />
+    <Compile Include="UnkownDateTests\PyramidSlideDownTests.cs" />
+    <Compile Include="201608\StatTests.cs" />
+    <Compile Include="UnkownDateTests\WhichAreInUnitTests.cs" />
+    <Compile Include="UnkownDateTests\VasyaClerkTests.cs" />
+    <Compile Include="UnkownDateTests\VowelCountTests.cs" />
+    <Compile Include="UnkownDateTests\VasyaAndDrinksTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeithKatas\KeithKatas.csproj">
+      <Project>{bb20912d-38a9-45ed-ac23-06558654ffd9}</Project>
+      <Name>KeithKata</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
