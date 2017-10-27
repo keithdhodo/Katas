@@ -69,6 +69,7 @@
     <Compile Include="201707\DecimalPlaces.cs" />
     <Compile Include="201710\ImproperFraction.cs" />
     <Compile Include="201710\Printer.cs" />
+    <Compile Include="201710\SequenceSum.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
