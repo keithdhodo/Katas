@@ -1,7 +1,7 @@
 ﻿using Kata.October2017;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace KeithKatas.Tests._201710
+namespace KeithKatas.Tests.October2017
 {
     [TestClass]
     public class SequenceSumTests
