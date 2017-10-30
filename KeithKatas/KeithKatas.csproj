@@ -71,6 +71,7 @@
     <Compile Include="201710\Printer.cs" />
     <Compile Include="201710\SequenceSum.cs" />
     <Compile Include="201710\ShortestWord.cs" />
+    <Compile Include="201710\SquareEveryDigit.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
