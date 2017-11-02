@@ -82,6 +82,7 @@
     <Compile Include="201706\VowelCountTests.cs" />
     <Compile Include="201707\DecimalPlaces.cs" />
     <Compile Include="201710\ImproperFractionTests.cs" />
+    <Compile Include="201710\PinTests.cs" />
     <Compile Include="201710\PrinterErrorTests.cs" />
     <Compile Include="201710\SequenceSumTests.cs" />
     <Compile Include="201710\ShortestWordTests.cs" />

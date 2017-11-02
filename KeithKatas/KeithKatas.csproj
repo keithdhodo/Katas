@@ -68,6 +68,7 @@
     <Compile Include="201706\VowelCount.cs" />
     <Compile Include="201707\DecimalPlaces.cs" />
     <Compile Include="201710\ImproperFraction.cs" />
+    <Compile Include="201710\Pin.cs" />
     <Compile Include="201710\Printer.cs" />
     <Compile Include="201710\SequenceSum.cs" />
     <Compile Include="201710\ShortestWord.cs" />
