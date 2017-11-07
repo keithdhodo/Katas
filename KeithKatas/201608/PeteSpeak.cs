@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Kata.August2016
+namespace KeithKatas.August2016
 {
     public class PeteSpeak
     {

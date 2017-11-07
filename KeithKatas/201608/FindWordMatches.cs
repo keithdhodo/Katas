@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata.August2016
+namespace KeithKatas.August2016
 {
     public class FindWordMatches
     {

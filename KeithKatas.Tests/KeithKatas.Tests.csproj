@@ -88,6 +88,7 @@
     <Compile Include="201710\ShortestWordTests.cs" />
     <Compile Include="201710\SquareEveryDigitTests.cs" />
     <Compile Include="201710\ThreeForTwoTests.cs" />
+    <Compile Include="201711\EasterSundayTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
     <Compile Include="UnkownDateTests\SlopeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

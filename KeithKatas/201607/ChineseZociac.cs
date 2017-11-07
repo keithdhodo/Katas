@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kata.July2016
+namespace KeithKatas.July2016
 {
     public class ChineseZodiac
     {

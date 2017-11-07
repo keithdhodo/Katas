@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata.October2017
+namespace KeithKatas.October2017
 {
     public class Printer
     {

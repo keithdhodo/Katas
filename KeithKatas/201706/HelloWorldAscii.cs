@@ -1,6 +1,6 @@
 ﻿// https://www.codewars.com/kata/oh-come-on-hello-world-once-again/csharp
 
-namespace Kata.June2017
+namespace KeithKatas.June2017
 {
     public class HelloWorldAscii
     {

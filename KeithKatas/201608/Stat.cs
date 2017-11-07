@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kata.August2016
+namespace KeithKatas.August2016
 {
     /// <summary>
     /// https://www.codewars.com/kata/55b3425df71c1201a800009c/train/csharp

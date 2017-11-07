@@ -10,9 +10,9 @@ namespace Kata
 
             Example:
 
-            Kata.HighAndLow("1 2 3 4 5"); // return "5 1"
-            Kata.HighAndLow("1 2 -3 4 5"); // return "5 -3"
-            Kata.HighAndLow("1 9 3 4 -5"); // return "9 -5"
+            KeithKatas.HighAndLow("1 2 3 4 5"); // return "5 1"
+            KeithKatas.HighAndLow("1 2 -3 4 5"); // return "5 -3"
+            KeithKatas.HighAndLow("1 9 3 4 -5"); // return "9 -5"
             Notes:
 
             All numbers are valid Int32, no need to validate them.

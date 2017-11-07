@@ -1,4 +1,4 @@
-﻿using Kata.June2017;
+﻿using KeithKatas.June2017;
 using NUnit.Framework;
 using System;
 using System.Linq;

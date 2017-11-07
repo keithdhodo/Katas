@@ -1,6 +1,6 @@
-﻿using System;
+﻿using KeithKatas.August2016;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata.August2016;
+using System;
 
 namespace Sandbox._201608
 {

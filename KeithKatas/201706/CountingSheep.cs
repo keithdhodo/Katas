@@ -2,7 +2,7 @@
 
 // https://www.codewars.com/kata/count-all-the-sheep-on-farm-in-the-heights-of-new-zealand/train/csharp
 
-namespace Kata.June2017
+namespace KeithKatas.June2017
 {
     public class CountingSheep
     {

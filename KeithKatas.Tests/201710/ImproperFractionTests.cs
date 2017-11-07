@@ -1,6 +1,6 @@
-﻿using System;
-using Kata.October2017;
+﻿using KeithKatas.October2017;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace KeithKatas.Tests.October2017
 {

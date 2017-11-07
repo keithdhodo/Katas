@@ -74,6 +74,7 @@
     <Compile Include="201710\ShortestWord.cs" />
     <Compile Include="201710\SquareEveryDigit.cs" />
     <Compile Include="201710\ThreeForTwo.cs" />
+    <Compile Include="201711\EasterSunday.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
@@ -113,7 +114,6 @@
     <Compile Include="UnknownDate\VowelCount.cs" />
     <Compile Include="UnknownDate\WhichAreIn.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

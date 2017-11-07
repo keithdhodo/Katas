@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata.June2017
+namespace KeithKatas.June2017
 {
     public class PartialWordSearching
     {

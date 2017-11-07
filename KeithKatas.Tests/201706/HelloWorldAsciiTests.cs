@@ -1,9 +1,5 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using KeithKatas.June2017;
 using NUnit.Framework;
-using Kata.June2017;
-using System.IO;
-using System.Text.RegularExpressions;
 
 namespace KeithKatas.Tests.June2017
 {

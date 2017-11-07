@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Kata.October2017
+namespace KeithKatas.October2017
 {
     public class Pin
     {

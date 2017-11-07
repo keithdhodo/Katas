@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 
 // https://www.codewars.com/kata/tribonacci-sequence/train/csharp
-namespace Kata.June2017
+namespace KeithKatas.June2017
 {
     public class Tribonacci
     {

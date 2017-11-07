@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Kata.October2017
+namespace KeithKatas.October2017
 {
     public class ShortestWord
     {

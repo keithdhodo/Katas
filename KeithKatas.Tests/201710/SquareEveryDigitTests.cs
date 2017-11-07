@@ -1,4 +1,4 @@
-﻿using Kata.October2017;
+﻿using KeithKatas.October2017;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;

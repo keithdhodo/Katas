@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using KeithKatas.June2017;
 using NUnit.Framework;
-using Kata.June2017;
+using System;
 using System.Linq;
 
 namespace KataTests.June2017

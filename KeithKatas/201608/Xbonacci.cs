@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace Kata.August2016
+namespace KeithKatas.August2016
 {
     public class Xbonacci
     {

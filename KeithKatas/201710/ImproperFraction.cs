@@ -1,4 +1,4 @@
-﻿namespace Kata.October2017
+﻿namespace KeithKatas.October2017
 {
     // http://www.codewars.com/kata/584acbee7d22f84dc80000e2/
     public class ImproperFraction

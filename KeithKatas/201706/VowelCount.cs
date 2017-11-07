@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Kata.June2017
+namespace KeithKatas.June2017
 {
     public class VowelCount
     {

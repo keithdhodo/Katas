@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kata.July2016
+namespace KeithKatas.July2016
 {
     public class DistancesFromAvg
     {

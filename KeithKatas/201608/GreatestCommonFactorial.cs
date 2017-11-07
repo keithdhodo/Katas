@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Kata.August2016
+namespace KeithKatas.August2016
 {
     public class GreatestCommonFactorial
     {

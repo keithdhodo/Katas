@@ -1,4 +1,4 @@
-﻿using Kata.July2017;
+﻿using KeithKatas.July2017;
 using NUnit.Framework;
 using System;
 using System.Text;
@@ -21,7 +21,7 @@ namespace KeithKatas.Tests.July2017
         }
 
         [Test]
-        public void Test_Random_03([Random(-2837823.73748453445, 2837823.73748453445, 98)]double number)
+        public void DecimalPlaces_Test_Random_03([Random(-2837823.73748453445, 2837823.73748453445, 98)]double number)
         {
             Assert.AreEqual(this.TwoDecimalPlaces(number), DecimalPlaces.TwoDecimalPlaces(number));
         }

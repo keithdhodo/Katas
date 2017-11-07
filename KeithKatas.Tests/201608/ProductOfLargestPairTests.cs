@@ -1,6 +1,6 @@
-﻿using System;
+﻿using KeithKatas.August2016;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata.August2016;
+using System;
 using System.Diagnostics;
 using System.Linq;
 

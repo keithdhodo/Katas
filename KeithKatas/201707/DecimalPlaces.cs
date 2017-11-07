@@ -2,7 +2,7 @@
 
 // https://www.codewars.com/kata/formatting-decimal-places-number-1/train/csharp
 
-namespace Kata.July2017
+namespace KeithKatas.July2017
 {
     public class DecimalPlaces
     {
