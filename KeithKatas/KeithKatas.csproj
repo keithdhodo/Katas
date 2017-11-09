@@ -74,6 +74,7 @@
     <Compile Include="201710\ShortestWord.cs" />
     <Compile Include="201710\SquareEveryDigit.cs" />
     <Compile Include="201710\ThreeForTwo.cs" />
+    <Compile Include="201711\BasicMath.cs" />
     <Compile Include="201711\EasterSunday.cs" />
     <Compile Include="201711\ItemCounter.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
