@@ -32,6 +32,7 @@ namespace KeithKatas.Tests.November2017
                 Assert.AreEqual(BasicMath.BasicOperation(op, val1, val2), getResult(op, val1, val2));
             }
         }
+
         private static double getResult(char op, double val1, double val2)
         {
             if (op == '+') return val1 + val2;
