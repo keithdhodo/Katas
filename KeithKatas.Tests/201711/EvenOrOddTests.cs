@@ -30,6 +30,24 @@ namespace KeithKatas.Tests.November2017
         }
 
         [Test]
+        public void EvenOrOdd_GetEvenOrOdd_BasicTest()
+        {
+            Assert.AreEqual("Even", EvenOrOdd.GetEvenOrOdd(2));
+            Assert.AreEqual("Odd", EvenOrOdd.GetEvenOrOdd(1));
+            Assert.AreEqual("Even", EvenOrOdd.GetEvenOrOdd(0));
+            Assert.AreEqual("Odd", EvenOrOdd.GetEvenOrOdd(7));
+        }
+
+        [Test]
+        public void EvenOrOdd_GetEvenOrOdd_AdditionalTest()
+        {
+            Assert.AreEqual("Even", EvenOrOdd.GetEvenOrOdd(1545452));
+            Assert.AreEqual("Odd", EvenOrOdd.GetEvenOrOdd(17));
+            Assert.AreEqual("Even", EvenOrOdd.GetEvenOrOdd(78));
+            Assert.AreEqual("Odd", EvenOrOdd.GetEvenOrOdd(74156741));
+        }
+
+        [Test]
         public void EvenOrOdd_GetEvenOrOdd_Random()
         {
             const int Tests = 100;
