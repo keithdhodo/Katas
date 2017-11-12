@@ -78,6 +78,7 @@
     <Compile Include="201711\EasterSunday.cs" />
     <Compile Include="201711\EvenOrOdd.cs" />
     <Compile Include="201711\ItemCounter.cs" />
+    <Compile Include="201711\StringManipulation.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />

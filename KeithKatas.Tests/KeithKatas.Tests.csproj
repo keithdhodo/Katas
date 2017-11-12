@@ -87,6 +87,7 @@
     <Compile Include="201710\SequenceSumTests.cs" />
     <Compile Include="201710\ShortestWordTests.cs" />
     <Compile Include="201710\SquareEveryDigitTests.cs" />
+    <Compile Include="201710\StringManipulationTests.cs" />
     <Compile Include="201710\ThreeForTwoTests.cs" />
     <Compile Include="201711\BasicMathTests.cs" />
     <Compile Include="201711\EasterSundayTests.cs" />
