@@ -32,7 +32,7 @@ namespace KeithKatas.Tests.November2017
         }
 
         [Test, Description("Random tests")]
-        public void RealFloor_GetRealFloor_RandTest()
+        public void RealFloor_GetRealFloor_RandomTests()
         {
             Random rnd = new Random();
 
