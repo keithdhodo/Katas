@@ -84,6 +84,7 @@
     <Compile Include="201710\ImproperFractionTests.cs" />
     <Compile Include="201710\PinTests.cs" />
     <Compile Include="201710\PrinterErrorTests.cs" />
+    <Compile Include="201711\CreditCardMaskTests.cs" />
     <Compile Include="201711\RealFloorTests.cs" />
     <Compile Include="201710\SequenceSumTests.cs" />
     <Compile Include="201710\ShortestWordTests.cs" />
