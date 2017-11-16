@@ -76,6 +76,7 @@
     <Compile Include="201710\ThreeForTwo.cs" />
     <Compile Include="201711\BasicMath.cs" />
     <Compile Include="201711\ChocolateBar.cs" />
+    <Compile Include="201711\CountingSheep.cs" />
     <Compile Include="201711\CreditCardMask.cs" />
     <Compile Include="201711\EasterSunday.cs" />
     <Compile Include="201711\EvenOrOdd.cs" />
