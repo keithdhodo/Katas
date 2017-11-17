@@ -1,10 +1,7 @@
 ﻿using Kata.November2017;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace KeithKatas.Tests.November2017
@@ -64,6 +61,59 @@ namespace KeithKatas.Tests.November2017
                 int actual = Mathematics.SumTwoSmallestNumbers(numbers);
                 Assert.AreEqual(expected, actual);
             }
+        }
+
+        [Test]
+        public void Mathematics_Factorial_Of0ShouldBe1()
+        {
+            Assert.AreEqual(1, Mathematics.Factorial(0));
+        }
+
+        [Test]
+        public void Mathematics_Factorial_Of1ShouldBe1()
+        {
+            Assert.AreEqual(1, Mathematics.Factorial(1));
+        }
+
+        [Test]
+        public void Mathematics_Factorial_Of2ShouldBe2()
+        {
+            Assert.AreEqual(2, Mathematics.Factorial(2));
+        }
+
+        [Test]
+        public void Mathematics_Factorial_Of3ShouldBe6()
+        {
+            Assert.AreEqual(6, Mathematics.Factorial(3));
+        }
+
+        [Test]
+        public void Mathematics_Factorial_AllFactorialsShouldBeCorrect()
+        {
+            for (var i = 0; i < 12; i++)
+            {
+                Assert.AreEqual(Factorial(i), Mathematics.Factorial(i));
+            }
+        }
+
+        [Test]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void Mathematics_Factorial_FactorialForNegativeInputShouldThrow()
+        {
+            Assert.AreEqual(0, Mathematics.Factorial(-1));
+        }
+
+        [Test]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void Mathematics_Factorial_FactorialFor13ShouldThrow()
+        {
+            Assert.AreEqual(0, Mathematics.Factorial(13));
+        }
+
+        private int Factorial(int x)
+        {
+            if (x < 0 || x > 12) throw new ArgumentOutOfRangeException();
+            return x == 0 ? 1 : x * Factorial(x - 1);
         }
     }
 }
