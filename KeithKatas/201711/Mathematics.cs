@@ -18,14 +18,7 @@ namespace Kata.November2017
                 throw new ArgumentOutOfRangeException();
             }
 
-            var factorial = 1;
-
-            for(int i = n; i > 0; i--)
-            {
-                factorial *= i;
-            }
-
-            return factorial;
+            return Enumerable.Range(1, n).Aggregate(1, (x, y) => x * y);
         }
     }
 }

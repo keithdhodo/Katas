@@ -83,6 +83,7 @@
     <Compile Include="201711\ItemCounter.cs" />
     <Compile Include="201711\Mathematics.cs" />
     <Compile Include="201711\RealFloor.cs" />
+    <Compile Include="201711\RockPaperScissors.cs" />
     <Compile Include="201711\StringManipulation.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
