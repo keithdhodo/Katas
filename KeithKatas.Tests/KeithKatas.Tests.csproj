@@ -87,6 +87,7 @@
     <Compile Include="201711\ChocolateBarTests.cs" />
     <Compile Include="201711\CountingSheepTests.cs" />
     <Compile Include="201711\CreditCardMaskTests.cs" />
+    <Compile Include="201711\CroquetClubTests.cs" />
     <Compile Include="201711\DecibelScaleTests.cs" />
     <Compile Include="201711\MathematicsTests.cs" />
     <Compile Include="201711\RealFloorTests.cs" />
