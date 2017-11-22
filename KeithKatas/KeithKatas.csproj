@@ -82,6 +82,7 @@
     <Compile Include="201711\DecibelScale.cs" />
     <Compile Include="201711\EasterSunday.cs" />
     <Compile Include="201711\EvenOrOdd.cs" />
+    <Compile Include="201711\Gauss.cs" />
     <Compile Include="201711\ItemCounter.cs" />
     <Compile Include="201711\Mathematics.cs" />
     <Compile Include="201711\RealFloor.cs" />

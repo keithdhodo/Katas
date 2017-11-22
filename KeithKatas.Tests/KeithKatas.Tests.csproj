@@ -89,6 +89,7 @@
     <Compile Include="201711\CreditCardMaskTests.cs" />
     <Compile Include="201711\CroquetClubTests.cs" />
     <Compile Include="201711\DecibelScaleTests.cs" />
+    <Compile Include="201711\GaussTests.cs" />
     <Compile Include="201711\MathematicsTests.cs" />
     <Compile Include="201711\RealFloorTests.cs" />
     <Compile Include="201710\SequenceSumTests.cs" />
