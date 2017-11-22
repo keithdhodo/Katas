@@ -46,7 +46,7 @@ namespace KeithKatas.Tests.November2017
         }
 
         [Test]
-        public void Gauss_Range_RandomTests()
+        public void Gauss_Range_RandomTest()
         {
             const int Tests = 100;
             const int MinValue = -2000000;
