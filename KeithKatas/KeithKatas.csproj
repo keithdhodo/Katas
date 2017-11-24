@@ -88,6 +88,7 @@
     <Compile Include="201711\ItemCounter.cs" />
     <Compile Include="201711\LargestFiveDigitSequence.cs" />
     <Compile Include="201711\Mathematics.cs" />
+    <Compile Include="201711\ParseAndCount.cs" />
     <Compile Include="201711\RealFloor.cs" />
     <Compile Include="201711\RockPaperScissors.cs" />
     <Compile Include="201711\StringManipulation.cs" />
