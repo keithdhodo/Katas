@@ -93,6 +93,7 @@
     <Compile Include="201711\FakeBinaryTests.cs" />
     <Compile Include="201711\GaussTests.cs" />
     <Compile Include="201711\InvestingTests.cs" />
+    <Compile Include="201711\IsogramTests.cs" />
     <Compile Include="201711\LargestFiveDigitSequenceTests.cs" />
     <Compile Include="201711\MathematicsTests.cs" />
     <Compile Include="201711\ParseAndCountTests.cs" />

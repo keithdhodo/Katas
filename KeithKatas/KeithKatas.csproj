@@ -86,6 +86,7 @@
     <Compile Include="201711\FakeBinary.cs" />
     <Compile Include="201711\Gauss.cs" />
     <Compile Include="201711\Investing.cs" />
+    <Compile Include="201711\Isogram.cs" />
     <Compile Include="201711\ItemCounter.cs" />
     <Compile Include="201711\LargestFiveDigitSequence.cs" />
     <Compile Include="201711\Mathematics.cs" />
