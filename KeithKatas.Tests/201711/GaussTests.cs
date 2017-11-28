@@ -12,9 +12,9 @@ namespace KeithKatas.Tests.November2017
         {
             get
             {
-                yield return new TestCaseData(100l).Returns(5050l);
-                yield return new TestCaseData(300l).Returns(45150l);
-                yield return new TestCaseData(50000l).Returns(1250025000l);
+                yield return new TestCaseData(100L).Returns(5050L);
+                yield return new TestCaseData(300L).Returns(45150L);
+                yield return new TestCaseData(50000L).Returns(1250025000L);
             }
         }
 

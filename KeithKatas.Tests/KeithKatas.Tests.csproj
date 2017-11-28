@@ -96,6 +96,7 @@
     <Compile Include="201711\IsogramTests.cs" />
     <Compile Include="201711\LargestFiveDigitSequenceTests.cs" />
     <Compile Include="201711\MathematicsTests.cs" />
+    <Compile Include="201711\NumericAccessorTests.cs" />
     <Compile Include="201711\ParseAndCountTests.cs" />
     <Compile Include="201711\RealFloorTests.cs" />
     <Compile Include="201710\SequenceSumTests.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="201710\SquareEveryDigitTests.cs" />
     <Compile Include="201711\RemoveFirstAndLastTests.cs" />
     <Compile Include="201711\RockPaperScissorsTests.cs" />
+    <Compile Include="201711\StrayNumberTests.cs" />
     <Compile Include="201711\StringManipulationTests.cs" />
     <Compile Include="201710\ThreeForTwoTests.cs" />
     <Compile Include="201711\BasicMathTests.cs" />
