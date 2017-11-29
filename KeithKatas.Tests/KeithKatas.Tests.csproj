@@ -111,6 +111,7 @@
     <Compile Include="201711\EasterSundayTests.cs" />
     <Compile Include="201711\EvenOrOddTests.cs" />
     <Compile Include="201711\ItemCounterTests.cs" />
+    <Compile Include="201711\WeirdStringCasingTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
     <Compile Include="UnkownDateTests\SlopeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

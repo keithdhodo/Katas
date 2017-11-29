@@ -97,6 +97,7 @@
     <Compile Include="201711\RockPaperScissors.cs" />
     <Compile Include="201711\StrayNumber.cs" />
     <Compile Include="201711\StringManipulation.cs" />
+    <Compile Include="201711\WeirdStringCasing.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
