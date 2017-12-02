@@ -40,7 +40,7 @@ namespace KeithKatas.Tests.November2017
             {
                 sut.Number = 1;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass("Correct exception type thrown");
             }
@@ -55,7 +55,7 @@ namespace KeithKatas.Tests.November2017
             {
                 sut.Number = 9;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass("Correct exception type thrown");
             }
@@ -70,7 +70,7 @@ namespace KeithKatas.Tests.November2017
             {
                 sut.Number = 7;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass("Correct exception type thrown");
             }
@@ -85,7 +85,7 @@ namespace KeithKatas.Tests.November2017
             {
                 sut.Number = -3;
             }
-            catch (ArgumentException e)
+            catch (ArgumentException)
             {
                 Assert.Pass("Correct exception type thrown");
             }
