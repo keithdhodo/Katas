@@ -113,6 +113,7 @@
     <Compile Include="201711\EvenOrOddTests.cs" />
     <Compile Include="201711\ItemCounterTests.cs" />
     <Compile Include="201711\WeirdStringCasingTests.cs" />
+    <Compile Include="201712\ArraySortTests.cs" />
     <Compile Include="201712\CamelCaseTests.cs" />
     <Compile Include="201712\ReturnNegativeTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />

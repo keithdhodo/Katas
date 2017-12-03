@@ -18,7 +18,8 @@ namespace Kata.December2017
                 }
                 else if (char.IsLetter(str[i]))
                 {
-                    sb.Append(char.ToLowerInvariant(str[i]));
+                    sb.Append(str[i]);
+                    //sb.Append(char.ToLowerInvariant(str[i]));
                 }
                 else
                 {
