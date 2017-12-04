@@ -99,6 +99,7 @@
     <Compile Include="201711\StrayNumber.cs" />
     <Compile Include="201711\StringManipulation.cs" />
     <Compile Include="201711\WeirdStringCasing.cs" />
+    <Compile Include="201712\Addition.cs" />
     <Compile Include="201712\CamelCase.cs" />
     <Compile Include="201712\Clock.cs" />
     <Compile Include="201712\ReturnNegative.cs" />
