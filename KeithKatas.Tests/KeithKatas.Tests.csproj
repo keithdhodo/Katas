@@ -117,6 +117,7 @@
     <Compile Include="201712\ArraySortTests.cs" />
     <Compile Include="201712\CamelCaseTests.cs" />
     <Compile Include="201712\ClockTests.cs" />
+    <Compile Include="201712\FullNameTests.cs" />
     <Compile Include="201712\ReturnNegativeTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
     <Compile Include="UnkownDateTests\SlopeTests.cs" />
