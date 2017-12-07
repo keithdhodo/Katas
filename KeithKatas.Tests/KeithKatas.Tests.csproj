@@ -118,6 +118,7 @@
     <Compile Include="201712\CamelCaseTests.cs" />
     <Compile Include="201712\ClockTests.cs" />
     <Compile Include="201712\FullNameTests.cs" />
+    <Compile Include="201712\InvertValueTests.cs" />
     <Compile Include="201712\ReturnNegativeTests.cs" />
     <Compile Include="201712\ShortLongShortTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
