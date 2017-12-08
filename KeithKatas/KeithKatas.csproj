@@ -104,6 +104,7 @@
     <Compile Include="201712\Clock.cs" />
     <Compile Include="201712\FullName.cs" />
     <Compile Include="201712\InvertValue.cs" />
+    <Compile Include="201712\PersistentBugger.cs" />
     <Compile Include="201712\ReturnNegative.cs" />
     <Compile Include="201712\ShortLongShort.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />

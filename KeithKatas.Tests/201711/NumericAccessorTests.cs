@@ -148,7 +148,7 @@ namespace KeithKatas.Tests.November2017
                     {
                         sut.Number = a;
                     }
-                    catch (ArgumentException e)
+                    catch (ArgumentException)
                     {
                         continue;
                     }
