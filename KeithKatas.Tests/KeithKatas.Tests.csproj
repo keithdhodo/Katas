@@ -122,6 +122,7 @@
     <Compile Include="201712\OppositeNumberTests.cs" />
     <Compile Include="201712\PanagramTests.cs" />
     <Compile Include="201712\PersistentBuggerTests.cs" />
+    <Compile Include="201712\PhoneNumberTests.cs" />
     <Compile Include="201712\ReturnNegativeTests.cs" />
     <Compile Include="201712\ShortLongShortTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
