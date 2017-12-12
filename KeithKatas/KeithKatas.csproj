@@ -109,6 +109,7 @@
     <Compile Include="201712\PersistentBugger.cs" />
     <Compile Include="201712\ReturnNegative.cs" />
     <Compile Include="201712\ShortLongShort.cs" />
+    <Compile Include="201712\TwoToOne.cs" />
     <Compile Include="UnknownDate\BitCount.cs" />
     <Compile Include="UnknownDate\Block.cs" />
     <Compile Include="UnknownDate\CharacterSwap.cs" />
