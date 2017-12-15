@@ -1,14 +1,14 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Linq;
 
 namespace Sandbox.August2016
 {
-    [TestClass]
+    [TestFixture]
     public class LogicalCalculatorTests
     {
-        [TestMethod]
+        [Test]
         public void LogicalCalculatorTest1()
         {
             Assert.AreEqual(false, LogicalCalculator.LogicalCalc(new bool[] { true, true, true, false }, "AND"));
@@ -34,7 +34,7 @@ namespace Sandbox.August2016
             Assert.AreEqual(true, LogicalCalculator.LogicalCalc(new bool[] { true }, "XOR"));
         }
 
-        [TestMethod]
+        [Test]
         public void LogicalCalculatorTestRandomTests()
         {
             var rand = new Random();
