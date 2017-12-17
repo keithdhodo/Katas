@@ -126,6 +126,7 @@
     <Compile Include="201712\PhoneNumberTests.cs" />
     <Compile Include="201712\ReturnNegativeTests.cs" />
     <Compile Include="201712\ShortLongShortTests.cs" />
+    <Compile Include="201712\SquareOrSquareRootTests.cs" />
     <Compile Include="201712\TowerTests.cs" />
     <Compile Include="201712\TwoToOneTests.cs" />
     <Compile Include="UnkownDateTests\EANValidatorTests.cs" />
