@@ -108,6 +108,7 @@
     <Compile Include="201712\OppositeNumber.cs" />
     <Compile Include="201712\Panagram.cs" />
     <Compile Include="201712\PersistentBugger.cs" />
+    <Compile Include="201712\Raul.cs" />
     <Compile Include="201712\ReturnNegative.cs" />
     <Compile Include="201712\ShortLongShort.cs" />
     <Compile Include="201712\SquareOrSquareRoot.cs" />
