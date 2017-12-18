@@ -116,6 +116,7 @@
     <Compile Include="201712\AdditionTests.cs" />
     <Compile Include="201712\ArraySortTests.cs" />
     <Compile Include="201712\CamelCaseTests.cs" />
+    <Compile Include="201712\CircleTests.cs" />
     <Compile Include="201712\ClockTests.cs" />
     <Compile Include="201712\DuplicateFinderTests.cs" />
     <Compile Include="201712\FullNameTests.cs" />
