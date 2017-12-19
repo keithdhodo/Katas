@@ -121,6 +121,7 @@
     <Compile Include="201712\DuplicateFinderTests.cs" />
     <Compile Include="201712\FullNameTests.cs" />
     <Compile Include="201712\InvertValueTests.cs" />
+    <Compile Include="201712\MeanOfArrayTests.cs" />
     <Compile Include="201712\OppositeNumberTests.cs" />
     <Compile Include="201712\PanagramTests.cs" />
     <Compile Include="201712\PersistentBuggerTests.cs" />

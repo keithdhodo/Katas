@@ -106,6 +106,7 @@
     <Compile Include="201712\DuplicateFinder.cs" />
     <Compile Include="201712\FullName.cs" />
     <Compile Include="201712\InvertValue.cs" />
+    <Compile Include="201712\MeanOfArray.cs" />
     <Compile Include="201712\OppositeNumber.cs" />
     <Compile Include="201712\Panagram.cs" />
     <Compile Include="201712\PersistentBugger.cs" />
