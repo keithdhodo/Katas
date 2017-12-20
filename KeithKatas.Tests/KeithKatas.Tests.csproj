@@ -114,6 +114,7 @@
     <Compile Include="201711\ItemCounterTests.cs" />
     <Compile Include="201711\WeirdStringCasingTests.cs" />
     <Compile Include="201712\AdditionTests.cs" />
+    <Compile Include="201712\AlternateSortTests.cs" />
     <Compile Include="201712\ArraySortTests.cs" />
     <Compile Include="201712\CamelCaseTests.cs" />
     <Compile Include="201712\CircleTests.cs" />
