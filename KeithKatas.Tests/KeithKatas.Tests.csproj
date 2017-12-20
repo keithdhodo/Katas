@@ -121,6 +121,7 @@
     <Compile Include="201712\ClockTests.cs" />
     <Compile Include="201712\DuplicateFinderTests.cs" />
     <Compile Include="201712\FullNameTests.cs" />
+    <Compile Include="201712\HighestProfitTests.cs" />
     <Compile Include="201712\InvertValueTests.cs" />
     <Compile Include="201712\MeanOfArrayTests.cs" />
     <Compile Include="201712\OppositeNumberTests.cs" />

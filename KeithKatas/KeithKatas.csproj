@@ -106,6 +106,7 @@
     <Compile Include="201712\Clock.cs" />
     <Compile Include="201712\DuplicateFinder.cs" />
     <Compile Include="201712\FullName.cs" />
+    <Compile Include="201712\HighestProfit.cs" />
     <Compile Include="201712\InvertValue.cs" />
     <Compile Include="201712\MeanOfArray.cs" />
     <Compile Include="201712\OppositeNumber.cs" />
