@@ -1,13 +1,13 @@
 ﻿using KeithKatas.October2017;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 
 namespace KeithKatas.Tests.October2017
 {
-    [TestClass]
+    [TestFixture]
     public class ImproperFractionTests
     {
-        [TestMethod]
+        [Test]
         public void ImproperFraction_GetMixedNumber_SimpleTests()
         {
             Assert.AreEqual("1 7/11", ImproperFraction.GetMixedNumber("18/11"));
@@ -15,7 +15,7 @@ namespace KeithKatas.Tests.October2017
             Assert.AreEqual("7 5/10", ImproperFraction.GetMixedNumber("75/10"));
         }
 
-        [TestMethod]
+        [Test]
         public void ImproperFraction_GetMixedNumber_RandomTests()
         {
             var random = new Random();

@@ -1,20 +1,20 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class VasyaAndDrinksTests
     {
-        [TestMethod]
+        [Test]
         public void VasyaAndDrinksTest1()
         {
             string fractions = "0 25 50 75";
             Assert.AreEqual(37.5000, VasyaAndDrinks.OrangeFraction(fractions));
         }
 
-        [TestMethod]
+        [Test]
         public void VasyaAndDrinksTest2()
         {
             string fractions = "50 50 100";

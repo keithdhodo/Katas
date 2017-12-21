@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class SimplePigLatinTests
     {
-        [TestMethod]
+        [Test]
         public void SimplePigLatinTest1()
         {
             Assert.AreEqual("igPay atinlay siay oolcay", SimplePigLatin.PigIt("Pig latin is cool"));

@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class DivisibleByFourUnitTests
     {
-        [TestMethod]
+        [Test]
         public void DivisibleByFourTests()
         {
             Assert.AreEqual(true, DivisibleByFour.IsDivisibleByFour(4));

@@ -1,14 +1,14 @@
 ﻿using KeithKatas.October2017;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Linq;
 
 namespace KeithKatas.Tests.October2017
 {
-    [TestClass]
+    [TestFixture]
     public class ThreeForTwoTests
     {
-        [TestMethod]
+        [Test]
         public void ThreeForTwo_ApplyDiscount_ComputeTotalFifteenItems()
         {
             var basket = new[] { 26.14m, 20.94m, 0.71m, 4.3m, 37.55m, 26.04m, 19.88m, 43.49m, 17.89m, 36.8m, 30.71m, 18.83m, 33.88m, 9.7m, 16.78m };
@@ -16,7 +16,7 @@ namespace KeithKatas.Tests.October2017
             Assert.AreEqual(243.33, result);
         }
 
-        [TestMethod]
+        [Test]
         public void ThreeForTwo_ApplyDiscount_ComputeTotalRandom()
         {
             var random = new Random();

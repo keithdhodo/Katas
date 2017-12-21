@@ -1,12 +1,12 @@
 ﻿using KeithKatas.October2017;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace KeithKatas.Tests.October2017
 {
-    [TestClass]
+    [TestFixture]
     public class SequenceSumTests
     {
-        [TestMethod]
+        [Test]
         public void SequenceSum_Test_0()
         {
             int input = 0;
@@ -17,7 +17,7 @@ namespace KeithKatas.Tests.October2017
             CollectionAssert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [Test]
         public void SequenceSum_Test_Ten()
         {
             int input = 10;
@@ -28,7 +28,7 @@ namespace KeithKatas.Tests.October2017
             CollectionAssert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [Test]
         public void SequenceSum_Test_NegativeFour()
         {
             int input = -4;
@@ -39,7 +39,7 @@ namespace KeithKatas.Tests.October2017
             CollectionAssert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [Test]
         public void SequenceSum_Test_Neg7()
         {
             int input = -7;

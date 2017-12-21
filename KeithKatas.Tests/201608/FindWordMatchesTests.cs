@@ -1,13 +1,13 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Collections.Generic;
 
 namespace Sandbox._201608
 {
-    [TestClass]
+    [TestFixture]
     public class FindWordMatchesTests
     {
-        [TestMethod]
+        [Test]
         public void FindWordMatchesTest1()
         {
             List<string> data = new List<string>();

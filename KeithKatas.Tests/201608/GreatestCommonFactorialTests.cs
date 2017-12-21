@@ -1,13 +1,13 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 
 namespace Sandbox._201608
 {
-    [TestClass]
+    [TestFixture]
     public class GreatestCommonFactorialTests
     {
-        [TestMethod]
+        [Test]
         public void GreatestCommonFactorial1()
         {
             Assert.AreEqual(4, GreatestCommonFactorial.FindGCF(8, 20));
@@ -15,7 +15,7 @@ namespace Sandbox._201608
             Assert.AreEqual(100, GreatestCommonFactorial.FindGCF(100, 100));
         }
 
-        [TestMethod]
+        [Test]
         public void GreatestCommonFactorialRandomTests()
         {
             var rand = new Random();

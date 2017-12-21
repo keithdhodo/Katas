@@ -1,10 +1,10 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class ReachMeAndSumMyDigitsTests
     {
         private static void testing(long actual, long expected)
@@ -12,7 +12,7 @@ namespace Sandbox
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [Test]
         public void ReachMeAndSumMyDigitsTestsTest1()
         {
             Console.WriteLine("Basic Tests SumDigNthTerm");

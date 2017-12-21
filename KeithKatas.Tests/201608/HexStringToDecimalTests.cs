@@ -1,12 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class HexStringToDecimalTests
     {
-        [TestMethod]
+        [Test]
         public void HexStringToDecimal1()
         {
             Assert.AreEqual(1, HexStringToDecimal.HexToDec("1"));

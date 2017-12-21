@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class FindTheCapitalsTests
     {
-        [TestMethod]
+        [Test]
         public void FindTheCapitalsTestsCodEWaRs()
         {
             // Arrange
@@ -21,7 +21,7 @@ namespace InterviewQuestionsTests
             CollectionAssert.AreEqual(returnedCapitals, expectedCapitals);
         }
 
-        [TestMethod]
+        [Test]
         public void FindTheCapitalsTestsNorThPoLE()
         {
             // Arrange

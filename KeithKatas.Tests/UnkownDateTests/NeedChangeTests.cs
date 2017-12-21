@@ -1,14 +1,14 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Collections.Generic;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class NeedChangeTests
     {
-        [TestMethod]
+        [Test]
         public void NeedChangeTestsTest1()
         {
             var res = new Dictionary<string, int> { {"25", 1}, {"5", 1}, {"1", 1} };

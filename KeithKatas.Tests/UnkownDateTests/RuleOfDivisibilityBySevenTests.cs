@@ -1,14 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class RuleOfDivisibilityBySevenTests
     {
-        [Ignore]
-        [TestMethod]
+        [Test]
         public void Test1()
         {
             Console.WriteLine("****** Basic Tests");

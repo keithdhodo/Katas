@@ -1,15 +1,15 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class NumberSeries3Tests
     {
         Sum s = new Sum();
 
-        [TestMethod]
+        [Test]
         public void NumberSeries3TestsGivenTest()
         {
             Assert.AreEqual(1, s.GetSum(0, 1));

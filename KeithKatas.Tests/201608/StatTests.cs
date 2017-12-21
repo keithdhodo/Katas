@@ -1,13 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class StatTests
     {
-        [Ignore]
-        [TestMethod]
+        [Test]
         public void StatTests_BasicTest()
         {
             string result = Stat.GetStats("01|15|59, 1|47|16, 01|17|20, 1|32|34, 2|17|17");

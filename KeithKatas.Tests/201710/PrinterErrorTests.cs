@@ -1,15 +1,15 @@
 ﻿using KeithKatas.October2017;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 
 namespace KeithKatas.Tests.October2017
 {
-    [TestClass]
+    [TestFixture]
     public class PrinterErrorTests
     {
         private static Random rnd = new Random();
 
-        [TestMethod]
+        [Test]
         public void Printer_PrinterError_SimpleTest()
         {
             Console.WriteLine("Testing PrinterError");
@@ -17,7 +17,7 @@ namespace KeithKatas.Tests.October2017
             Assert.AreEqual("3/56", Printer.PrinterError(s));
         }
 
-        [TestMethod]
+        [Test]
         public void Printer_PrinterError_MoreSimpleTests()
         {
             Console.WriteLine("Testing PrinterError");
@@ -29,7 +29,7 @@ namespace KeithKatas.Tests.October2017
             Assert.AreEqual("11/65", Printer.PrinterError(s));
         }
 
-        [TestMethod]
+        [Test]
         public void Printer_PrinterError_RandomTest()
         {
             Console.WriteLine("Random Tests");

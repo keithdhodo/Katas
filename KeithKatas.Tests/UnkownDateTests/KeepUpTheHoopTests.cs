@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class KeepUpTheHoopTests
     {
-        [TestMethod]
+        [Test]
         public void KeepUpTheHoopTestsFixedTest()
         {
             Assert.AreEqual("Keep at it until you get it", KeepUpTheHoop.HoopCount(6), "Should work for 6");

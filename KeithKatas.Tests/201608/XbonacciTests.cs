@@ -1,12 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox._201608
 {
-    [TestClass]
+    [TestFixture]
     public class XbonacciTests
     {
-        [TestMethod]
+        [Test]
         public void XbonacciTest1()
         {
             CollectionAssert.AreEqual(new double[] { 1, 1, 1, 3, 5, 9, 17, 31, 57, 105 }, Xbonacci.Tribonacci(new double[] { 1, 1, 1 }, 10));

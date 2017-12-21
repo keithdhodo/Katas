@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class BlockTests
     {
-        [TestMethod]
+        [Test]
         public void BlockTests1()
         {
             Block b = new Block(new int[] { 2, 2, 2 });

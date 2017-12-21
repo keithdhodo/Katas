@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class VowelCountTests
     {
-        [TestMethod]
+        [Test]
         public void VowelCountAbracadabraTest()
         {
             Assert.AreEqual(5, VowelCount.GetVowelCount("abracadabra"), "Nope!");

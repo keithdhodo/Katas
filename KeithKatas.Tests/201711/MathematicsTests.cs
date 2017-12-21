@@ -97,17 +97,15 @@ namespace KeithKatas.Tests.November2017
         }
 
         [Test]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Mathematics_Factorial_FactorialForNegativeInputShouldThrow()
         {
-            Assert.AreEqual(0, Mathematics.Factorial(-1));
+            Assert.Throws<ArgumentOutOfRangeException>(() => Mathematics.Factorial(-1));
         }
 
         [Test]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Mathematics_Factorial_FactorialFor13ShouldThrow()
         {
-            Assert.AreEqual(0, Mathematics.Factorial(13));
+            Assert.Throws<ArgumentOutOfRangeException>(() => Mathematics.Factorial(13));
         }
 
         private int Factorial(int x)

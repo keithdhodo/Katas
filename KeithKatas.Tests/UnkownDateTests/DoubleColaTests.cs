@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class DoubleColaTests
     {
-        [TestMethod]
+        [Test]
         public void DoubleColaTests1()
         {
             string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
@@ -15,7 +15,7 @@ namespace Sandbox
             Assert.AreEqual("Sheldon", DoubleCola.WhoIsNext(names, n));
         }
 
-        [TestMethod]
+        [Test]
         public void DoubleColaTests2()
         {
             string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
@@ -23,7 +23,7 @@ namespace Sandbox
             Assert.AreEqual("Sheldon", DoubleCola.WhoIsNext(names, n));
         }
 
-        [TestMethod]
+        [Test]
         public void DoubleColaTests3()
         {
             string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
@@ -31,7 +31,7 @@ namespace Sandbox
             Assert.AreEqual("Penny", DoubleCola.WhoIsNext(names, n));
         }
 
-        [TestMethod]
+        [Test]
         public void DoubleColaTests4()
         {
             string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };

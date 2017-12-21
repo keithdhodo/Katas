@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class DidSheSayHalloTests
     {
-        [TestMethod]
+        [Test]
         public void DidSheSayHalloTestsTest1()
         {
             Assert.IsTrue(DidSheSayHallo.Validate_hello("hello"));

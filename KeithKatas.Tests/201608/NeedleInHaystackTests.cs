@@ -1,12 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class NeedleInHaystackTests
     {
-        [TestMethod]
+        [Test]
         public void NeedInHaystackTest1()
         {
             var haystack_1 = new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false };

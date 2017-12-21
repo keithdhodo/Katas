@@ -1,12 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox._201608
 {
-    [TestClass]
+    [TestFixture]
     public class SortedUnionTests
     {
-        [TestMethod]
+        [Test]
         public void SortedUnionTest1()
         {
             CollectionAssert.AreEqual(new object[] { 1, 2, 3, 4 }, SortedUnion.UniteUnique(new[] { new object[] { 1, 2 }, new object[] { 3, 4 } }));

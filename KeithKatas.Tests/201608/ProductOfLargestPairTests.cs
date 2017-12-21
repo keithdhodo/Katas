@@ -1,15 +1,15 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Diagnostics;
 using System.Linq;
 
 namespace Sandbox.August2016
 {
-    [TestClass]
+    [TestFixture]
     public class ProductOfLargestPairTests
     {
-        [TestMethod]
+        [Test]
         public void ProductOfLargestPairTest1()
         {
             Assert.AreEqual(218842, ProductOfLargestPair.MaxProduct(new int[] { 56, 335, 195, 443, 6, 494, 252 }));
@@ -23,8 +23,7 @@ namespace Sandbox.August2016
             Assert.AreEqual(174750, ProductOfLargestPair.MaxProduct(new int[] { 375, 56, 337, 466, 203 }));
         }
 
-        [Ignore]
-        [TestMethod]
+        [Test]
         public void ProductOfLargestPairRandom()
         {
             var rand = new Random();

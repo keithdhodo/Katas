@@ -1,14 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class TankTruckTests
     {
-        [Ignore]
-        [TestMethod]
+        [Test]
         public void TankTruckTestsTest1()
         {
             Assert.AreEqual(1021, TankTruck.TankVol(40, 120, 3500));

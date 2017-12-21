@@ -1,16 +1,15 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class PrintAllNumbersLessThanNTests
     {
         PrintAllNumbersLessThanN k = new PrintAllNumbersLessThanN();
-
-        [Ignore]
-        [TestMethod]
+        
+        [Test]
         public void SimpleNumbers()
         {
             Assert.AreEqual("1", k.Pattern(1));

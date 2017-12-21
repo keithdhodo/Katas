@@ -1,19 +1,19 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class ForgetfulJohnyTests
     {
-        [TestMethod]
+        [Test]
         public void ForgetfulJohnyTestsTestExampleOne()
         {
             Assert.AreEqual("VASUAussr", ForgetfulJohny.Pass("vasuaUSSR@yandex.ru"));
         }
 
-        [TestMethod]
+        [Test]
         public void ForgetfulJohnyTestsTestExampleTwo()
         {
             Assert.AreEqual("111hIrOdOt", ForgetfulJohny.Pass("HiRoDoT111@gmail.com"));

@@ -1,12 +1,12 @@
 ﻿using KeithKatas.July2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class ChineseZodiacTests
     {
-        [TestMethod]
+        [Test]
         public void ChineseZodiacTest1()
         {
             Assert.AreEqual("Wood Snake", ChineseZodiac.GetChineseZodiac(1965));

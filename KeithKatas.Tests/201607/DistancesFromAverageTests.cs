@@ -1,12 +1,12 @@
 ﻿using KeithKatas.July2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox._201607
 {
-    [TestClass]
+    [TestFixture]
     public class DistancesFromAverageTests
     {
-        [TestMethod]
+        [Test]
         public void DistancesFromAverageTest1()
         {
             CollectionAssert.AreEqual(new[] { 4.2, -35.8, -2.8, 23.2, 11.2 }, DistancesFromAvg.DistancesFromAverage(new[] { 55, 95, 62, 36, 48 }));

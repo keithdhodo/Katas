@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class PyramidSlideDownTests
     {
-        [TestMethod]
+        [Test]
         public void SmallPyramidTest()
         {
             var smallPyramid = new[]
@@ -21,7 +21,7 @@ namespace Sandbox
             Assert.AreEqual(PyramidSlideDown.LongestSlideDown(smallPyramid), 23);
         }
 
-        [TestMethod]
+        [Test]
         public void MediumPyramidTest()
         {
             var mediumPyramid = new[]

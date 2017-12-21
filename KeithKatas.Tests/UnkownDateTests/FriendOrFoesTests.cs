@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class FriendOrFoesTests
     {
-        [TestMethod]
+        [Test]
         public void FriendOrFoesTestReturnsWhetherFriendsOrFoes()
         {
             string[] expected = { "Ryan", "Mark" };

@@ -1,14 +1,13 @@
 ﻿using InterviewQuestions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Collections.Generic;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class DinnerPartyTests
     {
-        [Ignore]
-        [TestMethod]
+        [Test]
         public void DinnerPartyTests_FiveFriends()
         {
             DinnerParty myParty = new DinnerParty();

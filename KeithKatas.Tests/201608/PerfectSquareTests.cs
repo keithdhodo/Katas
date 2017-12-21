@@ -1,12 +1,12 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox._201608
 {
-    [TestClass]
+    [TestFixture]
     public class PerfectSquareTests
     {
-        [TestMethod]
+        [Test]
         public void PerfectSquareTest1()
         {
             Assert.AreEqual(false, PerfectSquares.IsSquare(-1), "negative numbers aren't square numbers");

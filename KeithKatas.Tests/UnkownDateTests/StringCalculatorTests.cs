@@ -1,19 +1,19 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class StringCalculatorTests
     {
-        [TestMethod]
+        [Test]
         public void LessThan10()
         {
             Assert.AreEqual(5, StringCalculator.AddStrings("2, 3"));
         }
 
-        [TestMethod]
+        [Test]
         public void Over50()
         {
             Assert.AreEqual(60, StringCalculator.AddStrings("20, 20, 20"));

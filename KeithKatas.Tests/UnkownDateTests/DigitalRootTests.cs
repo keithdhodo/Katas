@@ -1,45 +1,45 @@
 ﻿using System;
 using InterviewQuestions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class DigitalRootTests
     {
         private DigitalRoot num;
 
-        [TestInitialize]
+        [SetUp]
         public void SetUp()
         {
             num = new DigitalRoot();
         }
 
-        [TestCleanup]
+        [TearDown]
         public void TearDown()
         {
             num = null;
         }
 
-        [TestMethod]
+        [Test]
         public void DigitalRootTestsTest16Returns7()
         {
             Assert.AreEqual(7, num.SumOfDigits(16));
         }
 
-        [TestMethod]
+        [Test]
         public void DigitalRootTestsTest942Returns6()
         {
             Assert.AreEqual(6, num.SumOfDigits(942));
         }
 
-        [TestMethod]
+        [Test]
         public void DigitalRootTestsTest132189Returns6()
         {
             Assert.AreEqual(6, num.SumOfDigits(132189));
         }
 
-        [TestMethod]
+        [Test]
         public void DigitalRootTestsTest493193Returns6()
         {
             Assert.AreEqual(2, num.SumOfDigits(493193));

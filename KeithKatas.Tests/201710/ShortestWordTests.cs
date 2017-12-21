@@ -1,44 +1,44 @@
 ﻿using KeithKatas.October2017;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Linq;
 
 namespace KeithKatas.Tests.October2017
 {
-    [TestClass]
+    [TestFixture]
     public class ShortestWordTests
     {
-        [TestMethod]
+        [Test]
         public void ShortestWord_BasicTest1()
         {
             Assert.AreEqual(3, ShortestWord.FindShort("bitcoin take over the world maybe who knows perhaps"));
         }
 
-        [TestMethod]
+        [Test]
         public void ShortestWord_BasicTest2()
         {
             Assert.AreEqual(3, ShortestWord.FindShort("turns out random test cases are easier than writing out basic ones"));
         }
 
-        [TestMethod]
+        [Test]
         public void ShortestWord_BasicTest3()
         {
             Assert.AreEqual(3, ShortestWord.FindShort("lets talk about javascript the best language"));
         }
 
-        [TestMethod]
+        [Test]
         public void ShortestWord_BasicTest4()
         {
             Assert.AreEqual(1, ShortestWord.FindShort("i want to travel the world writing code one day"));
         }
 
-        [TestMethod]
+        [Test]
         public void ShortestWord_BasicTest5()
         {
             Assert.AreEqual(2, ShortestWord.FindShort("Lets all go on holiday somewhere very cold"));
         }
 
-        [TestMethod]
+        [Test]
         public void ShortestWord_RandomTests()
         {
             var rand = new Random();

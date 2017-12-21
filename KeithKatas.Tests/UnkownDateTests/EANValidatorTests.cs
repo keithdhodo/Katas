@@ -1,5 +1,5 @@
 ﻿using InterviewQuestions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,20 +8,20 @@ using System.Threading.Tasks;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class EANValidatorTests
     {
-        [TestMethod]
+        [Test]
         public void EANValidatorTestsTest1()
         {
             Assert.AreEqual(true, EANValidator.Validate("9783815820865"));
         }
-        [TestMethod]
+        [Test]
         public void EANValidatorTestsTest2()
         {
             Assert.AreEqual(false, EANValidator.Validate("9783815820864"));
         }
-        [TestMethod]
+        [Test]
         public void EANValidatorTestsTest3()
         {
             Assert.AreEqual(true, EANValidator.Validate("9783827317100"));

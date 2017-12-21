@@ -1,12 +1,12 @@
 ﻿using KeithKatas.July2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class PalindromeTests
     {
-        [TestMethod]
+        [Test]
         public void PalindromeTest1()
         {
             Assert.AreEqual(true, Palindrome.IsPalindrome("anna"));

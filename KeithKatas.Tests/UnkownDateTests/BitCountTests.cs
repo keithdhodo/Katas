@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using Kata;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class BitCountTests
     {
-        [TestMethod]
+        [Test]
         public void CountBits()
         {
             Assert.AreEqual(0, BitCount.CountBits(0));

@@ -1,13 +1,13 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using InterviewQuestions;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class SlopeTests
     {
-        [TestMethod]
+        [Test]
         public void SlopeTestsReturnValidSlopes()
         {
             int[] test1 = { 19, 3, 20, 3 };

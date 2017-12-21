@@ -1,18 +1,18 @@
 ﻿using KeithKatas.July2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Sandbox.July2016
 {
-    [TestClass]
+    [TestFixture]
     public class LightSabersTests
     {
-        [TestMethod]
+        [Test]
         public void LightSabersTests_Adam()
         {
             Assert.AreEqual(0, LightSabers.HowManyLightsabersDoYouOwn("Adam"));
         }
 
-        [TestMethod]
+        [Test]
         public void LightSabersTests_Zach()
         {
             Assert.AreEqual(18, LightSabers.HowManyLightsabersDoYouOwn("Zach"));

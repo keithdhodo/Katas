@@ -1,14 +1,14 @@
 ﻿using KeithKatas.August2016;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Linq;
 
 namespace Sandbox.August2016
 {
-    [TestClass]
+    [TestFixture]
     public class PeteSpeakTests
     {
-        [TestMethod]
+        [Test]
         public void PeteSpeakTest1()
         {
             Assert.AreEqual("I w**t to p***h s*****e in t*e f**e", PeteSpeak.PeteTalk("I want to punch someone in the face"));
@@ -19,7 +19,7 @@ namespace Sandbox.August2016
             Assert.AreEqual("T*e; c***h: r****n j*b p***h", PeteSpeak.PeteTalk("the; COUCH: reason JOB PUNCH"));
         }
 
-        [TestMethod]
+        [Test]
         public void PeteSpeakRandom()
         {
             var rand = new Random();

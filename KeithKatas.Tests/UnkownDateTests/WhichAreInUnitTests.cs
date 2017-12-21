@@ -1,13 +1,12 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kata;
+﻿using Kata;
+using NUnit.Framework;
 
 namespace Sandbox
 {
-    [TestClass]
+    [TestFixture]
     public class WhichAreInUnitTests
     {
-        [TestMethod]
+        [Test]
         public void WhichAreInTest1()
         {
             string[] a1 = new string[] { "arp", "live", "strong" };

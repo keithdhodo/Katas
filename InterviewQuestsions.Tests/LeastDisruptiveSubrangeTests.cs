@@ -1,12 +1,12 @@
 ﻿using InterviewQuestions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace InterviewQuestionsTests
 {
-    [TestClass]
+    [TestFixture]
     public class LeastDisruptiveSubrangeTests
     {
-        [TestMethod]
+        [Test]
         public void LeastDistuptiveSubrangeTestReplace()
         {
             int[] original = { 1, 2, 3, 4, 5 };
