@@ -115,6 +115,7 @@
     <Compile Include="201712\Point.cs" />
     <Compile Include="201712\Raul.cs" />
     <Compile Include="201712\ReturnNegative.cs" />
+    <Compile Include="201712\ReverseWords.cs" />
     <Compile Include="201712\ShortLongShort.cs" />
     <Compile Include="201712\SquareOrSquareRoot.cs" />
     <Compile Include="201712\SteerTheShip.cs" />
