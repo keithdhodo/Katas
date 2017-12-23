@@ -4,13 +4,6 @@
     {
         public static string Tickets(int[] peopleInLine)
         {
-            // fix for broken unit test
-            //int[] brokenUnitTest = { 25, 25, 25, 25, 50, 100, 50 };
-            //if (peopleInLine.SequenceEqual(brokenUnitTest))
-            //{
-            //    return "YES";
-            //}
-
             int change = 0;
             const int ticketCost = 25;
 
@@ -20,11 +13,11 @@
                 {
                     change += payment;
                 }
-                else if ((change != 0) && ((change + payment) - ticketCost >= 0))
+                else if ((change != 0) && ((change + ticketCost) - payment >= 0))
                 {
                     change += change + payment - ticketCost;
                 }
-                else // change - payment less than zero
+                else
                 {
                     return "NO";
                 }

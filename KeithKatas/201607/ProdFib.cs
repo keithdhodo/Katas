@@ -8,7 +8,7 @@ namespace KeithKatas.July2016
 {
     public class ProdFib
     {
-        public static ulong[] productFib(ulong prod)
+        public static ulong[] ProductFib(ulong prod)
         {
             ulong previous = 0, current = 1, next = 1, found = 0;
             while (previous * current < prod)
