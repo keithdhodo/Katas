@@ -8,7 +8,7 @@ namespace InterviewQuestionsTests
     public class RuleOfDivisibilityBySevenTests
     {
         [Test]
-        public void Test1()
+        public void RuleOfDivisibilityBySeven_SampleTests()
         {
             Console.WriteLine("****** Basic Tests");
             Assert.AreEqual(new long[] { 7, 2 }, RuleOfDivisibilityBySeven.Seven(1603));
