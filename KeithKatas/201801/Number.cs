@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KeithKatas.January2018
+﻿namespace KeithKatas.January2018
 {
     public class Number
     {
