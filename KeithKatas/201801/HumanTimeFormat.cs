@@ -11,19 +11,23 @@ namespace KeithKatas.January2018
     {
         public static string FormatDuration(int seconds)
         {
-            var calculatedSeconds = seconds % 60;
-            var calculatedMinutes = seconds % Math.Pow(60, 20);
-            var calculatedHours = seconds % Math.Pow(60, 2) * 24;
-            var calculatedDays = seconds % (Math.Pow(60, 2) * Math.Pow(24, 2));
-            var calculatedMonths = seconds % (Math.Pow(60, 2) * Math.Pow(24, 2) * 30);
-            var calculatedYears = seconds % (Math.Pow(60, 2) * Math.Pow(24, 2) * 30 * 365);
+            var ticks = seconds * (long)Math.Pow(10, 7);
+            var timespan = new DateTime(ticks);
+            var calculatedYearsString = timespan.Year - 1 == 0 ? string.Empty : (timespan.Year - 1 > 1 ? $"{timespan.Year - 1} years" : $"{timespan.Year - 1} year");
+            var calculatedMonthsString = timespan.Month - 1 == 0 ? string.Empty : (timespan.Month - 1 > 1 ? $"{timespan.Month} months" : $"{timespan.Month - 1} month");
+            var calculatedDays = timespan.Day - 1 == 0 ? string.Empty : (timespan.Day - 1 > 1 ? $"{timespan.Day} days" : $"{timespan.Day - 1} day");
+            var calculatedHours = timespan.Hour == 0 ? string.Empty : (timespan.Hour > 1 ? $"{timespan.Hour} hours" : $"{timespan.Hour} hour");
+            var calculatedMinutes = timespan.Minute == 0 ? string.Empty : (timespan.Minute > 1 ? $"{timespan.Minute} minutes" : $"{timespan.Minute} minute");
+            var calculatedSeconds = timespan.Second == 0 ? string.Empty : (timespan.Second > 1 ? $"{timespan.Second} seconds" : $"{timespan.Second} second");
 
-            if (calculatedSeconds == 0 && calculatedMinutes == 0 && calculatedHours == 0 && calculatedDays == 0 && calculatedMonths == 0 && calculatedYears == 0)
-            {
-                return "now";
-            }
+            var humanReadableString = calculatedYearsString + calculatedMonthsString + calculatedDays + calculatedHours + calculatedMinutes + calculatedSeconds;
 
-            return string.Empty;
+            //if (calculatedSeconds == 0 && calculatedMinutes == 0 && calculatedHours == 0 && calculatedDays == 0 && calculatedMonths == 0 && calculatedYears == 0)
+            //{
+            //    return "now";
+            //}
+
+            return string.IsNullOrEmpty(humanReadableString) ? "now" : humanReadableString;
         }
     }
 }
