@@ -31,7 +31,7 @@ namespace KeithKatas.Tests.January2018
         private static int Solution(int[] n) => n.Sum((v) => v * v);
 
         [Test, Description("Random Tests")]
-        public void RandomTest()
+        public void SquareSum_SquareAndSum_RandomTest()
         {
             for (int i = 0; i < 100; ++i)
             {
