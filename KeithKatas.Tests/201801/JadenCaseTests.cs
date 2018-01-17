@@ -24,7 +24,7 @@ namespace KeithKatas.Tests.January2018
         {
             Assert.AreEqual("Most Trees Are Blue", "most trees are blue".ToJadenCase());
 
-            Assert.AreEqual("How Can Mirrors Be Real If Our Eyes Aren't Real", "How can mirrors be real if our eyes aren't real");
+            Assert.AreEqual("How Can Mirrors Be Real If Our Eyes Aren't Real", "How can mirrors be real if our eyes aren't real".ToJadenCase());
 
             Assert.AreEqual("All The Rules In This World Were Made By Someone No Smarter Than You. So Make Your Own.", 
                 "All the rules in this world were made by someone no smarter than you. So make your own.".ToJadenCase());
